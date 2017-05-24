@@ -109,8 +109,7 @@ void Serial::update()
                         }else if(wordlist[0] == "yaw")
                         {
                             ui->ang->setText("ang:"+wordlist[1]);
-                            ang = wordl
-                                    ist[1];
+                            ang = wordlist[1];
                         }
                     }
                 }else if(buf.startsWith("left"))
