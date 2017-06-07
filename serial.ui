@@ -910,7 +910,7 @@ font: 18pt &quot;Adobe Arabic&quot;;</string>
       </property>
      </widget>
     </item>
-    <item row="16" column="1" colspan="2">
+    <item row="16" column="1" colspan="8">
      <widget class="QPushButton" name="stop">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">

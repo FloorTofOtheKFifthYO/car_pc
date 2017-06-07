@@ -481,12 +481,12 @@ void Serial::on_go_clicked()
 
 void Serial::on_modi_pos_clicked()
 {
-    serialport->write(("pos modi 1 "+x+" "+y+" "+ang+"\r\n").toLatin1());
+    serialport->write(("pos modi 1 "+x+" "+y+" 0\r\n").toLatin1());
 }
 
 void Serial::on_load_clicked()
 {
-    serialport->write(("auto loadarea "+x+" "+y+" "+ang+"\r\n").toLatin1());
+    serialport->write(("auto loadarea "+x+" "+y+" 0\r\n").toLatin1());
 }
 
 void Serial::on_auto_save_clicked()
